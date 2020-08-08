@@ -1,0 +1,72 @@
+body,
+html {
+  height: 100%;
+  font-size: 20px; /* Change the font size*/
+  font-family:'Merriweather', serif; /* Change the font */
+  line-height: 1.5em; /* Change the line height size*/
+  margin: 0em;
+  color: #cc87ef; /* Change the font color*/
+   /* Change the background color */
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url('https://cdn.pixabay.com/photo/2018/08/12/15/29/hintersee-3601004__480.jpg');
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #43d6b9ff;
+  background-size: cover;
+  min-height: 100%; /* This adjusts the height of the image */
+  /* TODO: Add the property to create the parallax scrolling effect here */
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #cc87ef;
+}
+
+#description {
+  color: black;
+}
+
+.main-text {
+  display: flex; /* Set the flexbox display */
+  flex-direction: column; /* Configure the flex items to row */
+  flex-wrap: nowrap; /* Don’t wrap the flex items */
+  justify-content: center; /* Justify the flex items to the center */
+  align-items: center; /* Align the flex items to the center */
+
+  /* Design properties */
+  background-color: white;
+  padding: 100px 30px;
+  border-style: double;
+  border-color: #c6db6d;
+  border-width: 10px;
+
+  /* Positioning properties */
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 40%; /* Change this value to move the box up or down */
+
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
+
+.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #dbcfe8;
+}
