@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- TODO: Update the heading with the name of your website -->
+    <title>My Cause</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheets -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/take-action.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <!-- TODO: Add any links to Google font families here -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Pacifico&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <ul class="nav-bar">
+        <li class="nav"><a href="take-action.html">Take Action</a></li>
+        <li class="nav"><a href="resources.html">Resources</a></li>
+        <li class="nav"><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-header-action">
+      <h1>Take Action</h1>
+    </div>
+    <!--  Background image    -->
+    <div class="background"></div>
+
+    <!------------------------------->
+    <!--------FLEX CONTAINER--------->
+    <!------------------------------->
+    <!-- TODO: Create a flex container with the class "flex-container-action" to hold the description of your action and your check list -->
+    <div class="flex-container-action">
+      <div class="action-info-container">
+        <h2>
+          Produce Less Waste. What Can You Do?
+        </h2>
+        <p>
+          Start a transition towards a lifestyle that uses less products that
+          creates waste. You can do this by boycotting products that do
+          excessive harm to the environment and purchasing safer alternatives
+          with different companies.
+        </p>
+        <img
+          src="https://cdn.pixabay.com/photo/2019/09/16/18/36/recup-4481723__480.jpg"
+          alt="Reusable Coffee Cup"
+        />
+      </div>
+      <div class="action-list-container" id="checklist">
+        <div>
+          <h2 class="checklist-header">
+            Action List
+          </h2>
+          <p class="instructions">
+            Check off each action once you feel you've completed it.
+          </p>
+          <ul id="my-list">
+            <li>
+              Step 1: Find out which household items cause unnecessary waste
+              (too much plastic, poor design, excessive packaging, etc.). This
+              does NOT mean every plastic item you own.
+            </li>
+            <li>
+              Step 2: Figure out the companies producing those items and stop
+              buying from them.
+            </li>
+            <li>
+              Step 3: Do research about "too to good to be true" companies to
+              avoid greenwashing.
+            </li>
+            <li>
+              Step 4: Buy from actual environmentally friendly companies (see
+              <a href="resources.html">"Resources"</a>).
+            </li>
+            <li>
+              Optional Step: Find a way to contact the manufacturers or give
+              them feedback about products that are harmful.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- TODO: Inside the flex containter, add a flex item with the class "action-info-container" to hold your description-->
+    <!-- TODO: Inside the flex containter, add a flex item with class "action-list-container" and the id "checklist" to hold your checklist -->
+  </body>
+</html>
